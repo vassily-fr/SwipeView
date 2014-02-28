@@ -66,6 +66,8 @@ typedef NS_ENUM(NSUInteger, SwipeViewAlignment)
 @property (nonatomic, readonly) CGSize itemSize;
 @property (nonatomic, assign) NSInteger itemsPerPage;
 @property (nonatomic, assign) BOOL truncateFinalPage;
+@property (nonatomic, assign) NSInteger itemsToPreloadForward;
+@property (nonatomic, assign) NSInteger itemsToPreloadBackward;
 @property (nonatomic, strong, readonly) NSArray *indexesForVisibleItems;
 @property (nonatomic, strong, readonly) NSArray *visibleItemViews;
 @property (nonatomic, strong, readonly) UIView *currentItemView;
